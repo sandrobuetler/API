@@ -76,6 +76,6 @@ app.post('/pikkett', (req, res) => {
     setTimeout(() => {
     res.send({
         response: `Kontakt Pikett: Peter Meier - +41 79 658 70 56`,
-    }); }, 10000
+    }); }, 1000
     )
 });
