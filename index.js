@@ -65,3 +65,17 @@ app.post('/ops', (req, res) => {
         )
     }
 });
+
+app.post('/pikkett', (req, res) => {
+    
+    const { timeframe } = req.body;
+    
+    if(!timeframe) {
+        res.status(418).send({message: 'Anfrage fehlgeschlagen (kein Datumsbereich)!'})
+    }
+    setTimeout(() => {
+    res.send({
+        response: `Kontakt Pikett: Peter Meier - +41 79 658 70 56`,
+    }); }, 10000
+    )
+});

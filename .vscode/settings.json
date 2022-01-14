@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8955719f-0cdd-42ee-904e-667cf5d57740/resourceGroups/IP5/providers/Microsoft.Web/sites/ip5ChatbotAPI",
+    "appService.deploySubpath": "."
+}
